@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes sound {
+        from {
+            height: 300px;
+        }
+        to {
+          height: 20px;
+        }
+      }
+      #music_1 {
+        animation-duration: 1s;
+        animation-name: sound;
+        animation-iteration-count: infinite;
+        background-color: teal;
+        height: 40px;
+        width: 30px;
+        display: inline-block;
+        animation-direction: alternate;
+        margin-left: 3%;
+      }
+      #music_2 {
+        animation-duration: 1s;
+        animation-name: sound2;
+        animation-iteration-count: infinite;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        margin-left: 15%;background-color: seashell;
+        animation-direction:alternate-reverse;
+      }
+      @keyframes sound2 {
+        from{height: 400px;}
+        to{height: 150px;}
+        }
+      #music_3{
+        animation-duration: 777ms;
+        animation-name: sound3;
+        animation-iteration-count: infinite;
+        background-color: springgreen;
+        height: 30px ;
+        width: 30px;
+        display: inline-block;
+        margin-left: 25%;
+        animation-direction: alternate;
+        }
+        @keyframes sound3 {
+            from{height: 300px;}
+            to{height: 50px;}
+        }
+        #music_4{
+            animation-duration: 1s;
+            animation-name:sound4 ;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            background-color: pink;
+            height: 30px;
+            width: 30px;
+            margin-left: 35%;
+           }
+           @keyframes sound4 {
+            from{height: 150px;}
+            to{height: 0px;}
+           }
+           #music_5{
+            animation-duration: 1s;
+            animation-name: sound5 ;
+            animation-iteration-count: infinite;
+            animation-direction: alternate ;
+            height: 30px;
+            width: 30px;
+            background-color: yellow;
+            margin-left: 45%;
+           }
+           @keyframes sound5 {
+            from{height: 250px;}
+            to{height: 10px;}
+            
+           }
+           #music_6{
+            animation-duration: 666ms;
+            animation-name: sound6 ;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse ;
+            height: 30px;
+            width: 30px;
+            background-color: rgb(0, 102, 255);
+            margin-left: 55%;
+           }
+           @keyframes sound6 {
+            from{height: 100px;}
+            to{height: 150px;}
+            
+           }
+           #music_7{
+        animation-duration: 777ms;
+        animation-name: sound7;
+        animation-iteration-count: infinite;
+        background-color: rgb(255, 0, 0);
+        height: 30px ;
+        width: 30px;
+        display: inline-block;
+        margin-left: 62%;
+        animation-direction: alternate;
+        }
+        @keyframes sound7 {
+            from{height: 300px;}
+            to{height: 50px;}
+        }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: brown;
+        height: 500px;
+        width: 600px;
+        position: relative;
+      "
+    >
+      <span id="music_1" style="position: absolute; bottom: 0"></span>
+      <span id="music_2" style="position: absolute; bottom: 0;"></span>
+      <span id="music_3" style="position: absolute; bottom:0%;"></span>
+      <span id="music_4" style="position: absolute; bottom: 0%;"></span>
+      <span id="music_5" style="position: absolute; bottom: 0%;"></span>
+      <span id="music_6" style="position: absolute; bottom: 0%;"></span>
+      <span id="music_7" style="position: absolute; bottom: 0%;"></span>
+    </div>
+  </body>
+</html>
